@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.winMessage {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.playerInfo {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.grid {
+    border-spacing: 0;
+    margin: 10px;
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+.cell-content {
+    height: 50px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball {
+    /* display: inline-block; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.red-ball {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.blue-ball {
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+.resetButton {
+    padding: 5px 10px;
+    background-color: rgb(234, 151, 151);
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 10%;
+}
